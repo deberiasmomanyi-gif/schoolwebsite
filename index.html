@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University of Eldoret Junior School</title>
+  <meta name="description" content="Official website and learner portal of University of Eldoret Junior School.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+  <a class="visually-hidden" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main">
+      <a class="brand" href="/"><span class="crest">UE</span><span>University of Eldoret Junior School</span></a>
+      <button class="btn btn-ghost nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li><li><a href="#academics">Academics</a></li><li><a href="#admissions">Admissions</a></li>
+        <li><a href="#news">News</a></li><li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-primary" href="/login.html">Sign in</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 id="schoolName">University of Eldoret Junior School</h1>
+        <p id="schoolMotto"></p>
+        <p>Grades 7, 8 and 9. Parents, students and staff can sign in to see results, attendance, timetables, fee statements and school notices.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="/login.html">Sign in to the portal</a><a class="btn btn-ghost" href="#admissions">Admissions information</a></div>
+      </div>
+    </section>
+    <section class="section section-grid" id="about"><div><h2>About the school</h2></div><div class="prose" id="aboutText"></div></section>
+    <section class="section section-grid" id="academics"><div><h2>Academics</h2></div><div class="prose" id="academicsText"></div></section>
+    <section class="section section-grid" id="admissions"><div><h2>Admissions</h2></div><div class="prose" id="admissionsText"></div></section>
+    <section class="section section-grid" id="news"><div><h2>News and announcements</h2></div><div class="news-list" id="newsList"><p class="muted">Loading news...</p></div></section>
+    <section class="section section-grid" id="contact"><div><h2>Contact us</h2></div>
+      <dl class="contact-list"><dt>Address</dt><dd id="cAddress"></dd><dt>Telephone</dt><dd id="cPhone"></dd><dt>E-mail</dt><dd id="cEmail"></dd><dt>Office hours</dt><dd id="cHours"></dd></dl></section>
+  </main>
+  <footer class="site-footer"><p id="footerText"></p></footer>
+  <script src="/js/main.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
